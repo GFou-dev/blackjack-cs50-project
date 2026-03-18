@@ -55,13 +55,13 @@ pip install pytest
 You can run the game without any extra command-line argument, you will be prompted for your name:
 
 ```bash
-python blackjack.py
+python blackjack_game.py
 ```
 
 Or add your name directly as a command-line argument:
 
 ```bash
-python blackjack.py Cat
+python blackjack_game.py Cat
 ```
 
 ---
@@ -97,9 +97,9 @@ python blackjack.py Cat
 ## Project Structure
 
 ```
-blackjack/
-├── blackjack.py       # Main game
-├── test_blackjack.py  # Pytest test suite
+blackjack-cs50-project/
+├── blackjack_game.py       # Main game
+├── test_blackjack_game.py  # Pytest test suite
 └── README.md
 ```
 
@@ -127,7 +127,7 @@ Compares final scores and returns the outcome message when neither side busted.
 The test suite covers score calculation edge cases, deck integrity, result messages, and name input handling.
 
 ```bash
-pytest test_blackjack.py -v
+pytest test_blackjack_game.py -v
 ```
 
 
