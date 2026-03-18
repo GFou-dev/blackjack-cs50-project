@@ -1,5 +1,5 @@
 import pytest
-from blackjack import Table, result_message, get_playername, BUST_THRESHOLD
+from blackjack_game import Table, result_message, get_playername, BUST_THRESHOLD
 
 
 @pytest.fixture
